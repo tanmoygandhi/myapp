@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import {Form} from '@angular/forms';
+import { Component, NgModule } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,5 @@ import {Form} from '@angular/forms';
 })
 export class AppComponent {
   title = 'myapp';
-  name : string = "Tanmoy";
-  textValue : string = "Tanmoy Gandhi";
-  inputValue : string = "Tanmoy Gandhi";
+  
 }
